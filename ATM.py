@@ -1,5 +1,5 @@
 def atm():
-    balance = float(input("What is your current balance: "))
+    balance = 0.00
 
     while True:
         try:
