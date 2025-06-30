@@ -32,14 +32,15 @@ Calculates how much each person should pay including a tip, based on their indiv
 **File:** `ATM.py`  
 Simulates basic ATM operations: deposit, withdraw, and check balance. Includes checks for insufficient funds and reusability.
 
----
+### 8. ⏰ Alarm Clock  
+**File:** `Alarm_Clock.py`  
+A simple alarm clock where the user inputs a time in 24-hour format (`HH:MM`). When the system time matches the alarm time, it plays an alarm sound using the `playsound` module.
 
 ## 📦 Requirements
 
 - Python 3.x
-- No external libraries needed (only built-in modules used like `random` and `time`)
-
----
+- `playsound` library (only for Alarm Clock)
+- Other projects use only built-in modules (`random`, `time`, etc.)
 
 ## 🚀 How to Run
 
